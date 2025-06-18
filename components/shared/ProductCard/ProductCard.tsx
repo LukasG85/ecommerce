@@ -3,9 +3,10 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import { ProductPrice } from "../ProductPrice";
+import { Product } from "@/types";
 
 export type ProductCard = {
-  product: any;
+  product: Product;
 };
 
 export const ProductCard = ({ product }: ProductCard) => {
